@@ -1,0 +1,82 @@
+BODY,P,TD,DIV
+{ 
+  font-family               : Verdana;
+  font-size                 : 10px;
+  color                     : #ffffff;
+}
+TD.weissklein
+{ 
+  font-family: Verdana;
+  font-size  : 10px;
+  color      : #ffffff;
+}
+TD.weissgross
+{ 
+  font-family: Verdana;
+  font-size  : 12px;
+  color      : #ffffff;
+}
+A
+{ 
+  color          : #aaaaaa;
+  font-weight    : normal;
+  text-decoration: none;
+}
+A:Hover
+{
+  font-weight    : normal;
+  text-decoration: underline;
+  color          : #ffffff;
+}
+INPUT,SELECT
+{ 
+  background-color   : #555555;
+  color              : #ffffff;
+  BORDER-BOTTOM-COLOR: #222222;
+  BORDER-LEFT-COLOR  : #888888;
+  BORDER-RIGHT-COLOR : #222222;
+  BORDER-TOP-COLOR   : #888888;
+  Border-Style       : solid;
+  Border-Width       : 1px;
+  font-family        : Verdana;
+  font-size          : 10px;
+}
+INPUT.nofunc
+{ 
+  background-color   : #555555;
+  color              : #777777;
+  BORDER-BOTTOM-COLOR: #222222;
+  BORDER-LEFT-COLOR  : #888888;
+  BORDER-RIGHT-COLOR : #222222;
+  BORDER-TOP-COLOR   : #888888;
+  Border-Style       : solid;
+  Border-Width       : 1px;
+  font-family        : Verdana;
+  font-size          : 10px;
+}
+INPUT.eingabe
+{
+  background-color   : #555555;
+  color              : #ffffff;
+  BORDER-BOTTOM-COLOR: #888888;
+  BORDER-LEFT-COLOR  : #222222;
+  BORDER-RIGHT-COLOR : #888888;
+  BORDER-TOP-COLOR   : #222222;
+  Border-Style       : solid;
+  Border-Width       : 1px;
+  font-family        : Verdana;
+  font-size          : 10px;
+}
+TEXTAREA
+{
+  background-color   : #555555;
+  color              : #ffffff;
+  BORDER-BOTTOM-COLOR: #888888;
+  BORDER-LEFT-COLOR  : #222222;
+  BORDER-RIGHT-COLOR : #888888;
+  BORDER-TOP-COLOR   : #222222;
+  Border-Style       : solid;
+  Border-Width       : 1px;
+  font-family        : Verdana;
+  font-size          : 10px;
+}
