@@ -5,7 +5,7 @@ require_once 'inhalt/inc.hilfsfunktionen.php';
 
 open_db();
 
-$allowed_sites = array('start', 'regist', 'new_game');
+$allowed_sites = array('start', 'login', 'regist', 'new_game');
 
 if(!empty($_POST['seite']) && in_array($_POST['seite'], $allowed_sites)) $site = $_POST['seite'];
 else $seite = 'start';

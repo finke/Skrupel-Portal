@@ -2,7 +2,7 @@
 // Userfunktionen
 function login($name, $passwd){
 	$_SESSION['user']['login'] = false;
-	if(open_db()){
+	if(open_db() || empty($nick) || empty($passwd)){
 		$salt = @mysql_query("SELECT `salt` FROM $skrupel_user WHERE nick='$name'");
 		if($zeiger = mysql_fetch_array($zeiger)){			
 			$salt = $zeiger['salt'];
