@@ -27,7 +27,7 @@ include ('lang/'.$language;.'/lang.portal_'.$seite.'.php');
 		</head>
 		<aside>
 			<nav>
-			<a href="portal.php"><?php echo $lang['portal']['navi']['start']; ?></a>
+			<a href="portal.php"><?php echo $lang['portal']['navi']['login']; ?></a>
 			<a href="portal.php?regist"><?php echo $lang['portal']['navi']['regist']; ?></a>
 			<a href="portal.php?new_game"><?php echo $lang['portal']['navi']['new_game']; ?></a>
 			</nav>
